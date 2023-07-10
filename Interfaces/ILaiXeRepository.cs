@@ -4,6 +4,6 @@ namespace Bai21_TranVanQuang.Interfaces
 {
     public interface ILaiXeRepository
     {
-        // public bool Create(Account account);
+        public Task<IEnumerable<LaiXe>> GetAll();
     }
 }
